@@ -8,4 +8,5 @@ runs:
   using: composite
   steps:
     - shell: bash
+      sudo: yes
       run: $GITHUB_ACTION_PATH/entrypoint.sh
