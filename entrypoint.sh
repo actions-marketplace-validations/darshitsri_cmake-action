@@ -1,4 +1,4 @@
 #!/bin/bash
 pwd
 ls -lrths
-apt update && apt install -y cmake
+sudo apt update && sudo apt install -y cmake
